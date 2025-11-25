@@ -1,0 +1,91 @@
+body {
+    background-color: #f5f6fa;
+    font-family: "Segoe UI", sans-serif;
+    padding-top: 30px;
+    font-size: 20px; 
+}
+
+h1 {
+    font-weight: 900;
+    color: #2c3e50;
+    font-size: 48px;   
+}
+
+h2 {
+    font-weight: 700;
+    color: #2c3e50;
+    font-size: 34px;
+}
+
+h3 {
+    font-weight: 700;
+    color: #2c3e50;
+    font-size: 36px !important;   
+}
+
+.section-card {
+    border-radius: 20px !important;
+    padding: 60px 70px !important;    
+    width: 95% !important;
+    max-width: 1250px !important;       
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.10);
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.section-card:hover {
+    transform: scale(1.03) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25) !important;
+}
+
+.section-card p {
+    font-size: 1.55rem !important;     
+    margin-bottom: 2rem !important;
+}
+
+.section-card .btn {
+    padding: 20px 50px !important;
+    font-size: 1.6rem !important;         
+    font-weight: 700 !important;
+    border-radius: 14px !important;
+}
+
+.project-card, .developer-card, .tech-card {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 14px;
+    border: 1px solid #dadada;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.project-card:hover,
+.developer-card:hover,
+.tech-card:hover {
+    border-color: #0d6efd;
+    box-shadow: 0 2px 12px rgba(0, 74, 173, 0.2);
+}
+
+.msg {
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.msg.ok {
+    color: #27ae60;
+}
+
+.msg.error {
+    color: #e74c3c;
+}
+
+input {
+    border-radius: 8px !important;
+    font-size: 20px !important;
+    padding: 10px 14px !important;
+}
+
+button {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}

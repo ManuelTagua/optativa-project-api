@@ -1,0 +1,47 @@
+### Obtener todos los proyectos
+GET http://localhost:8080/api/v1/projects
+Accept: application/json
+
+
+### Buscar proyectos con una palabra
+GET http://localhost:8080/api/v1/projects/prueba
+Accept: application/json
+
+### Crear proyecto
+POST http://localhost:8080/api/v1/projects
+Content-Type: application/json
+
+{
+  "name": "Proyecto desde REST Client",
+  "description": "Ejemplo",
+  "demoUrl": "https://ejemplo.com",
+  "picture": "img.jpg",
+  "startDate": "2024-01-01",
+  "endDate": "2024-01-10",
+  "status": { "id": 3 },
+  "developers": [],
+  "technologies": []
+}
+
+### Actualizar proyecto
+PUT http://localhost:8080/api/v1/projects/4
+Content-Type: application/json
+
+{
+  "name": "Proyecto Modificado",
+  "description": "Descripción actualizada",
+  "demoUrl": "https://ejemplo.com/nuevo",
+  "picture": "nueva.jpg",
+  "startDate": "2024-02-01",
+  "endDate": "2024-02-20",
+  "status": { "id": 5 },
+  "developers": [],
+  "technologies": []
+}
+
+
+
+### Borrar proyecto
+DELETE http://localhost:8080/api/v1/projects/4
+Accept: application/json
+

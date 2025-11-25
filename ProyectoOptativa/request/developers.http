@@ -1,0 +1,18 @@
+### Crear developer
+POST http://localhost:8080/api/v1/developers
+Content-Type: application/json
+
+{
+  "name": "Juan",
+  "surname": "López",
+  "email": "juanlopez@example.com",
+  "linkedinUrl": "https://linkedin.com/in/juan",
+  "githubUrl": "https://github.com/juan"
+}
+
+
+
+
+### Borrar developer
+DELETE http://localhost:8080/api/v1/developers/3
+
