@@ -71,7 +71,7 @@ Todos gestionados mediante JPA/Hibernate.
 ### Developers
 ```
 GET    /api/v1/developers
-GET    /api/v1/developers/{id}
+GET    /api/v1/developers/{palabra}
 POST   /api/v1/developers
 PUT    /api/v1/developers/{id}
 DELETE /api/v1/developers/{id}
@@ -80,18 +80,14 @@ DELETE /api/v1/developers/{id}
 ### Projects
 ```
 GET    /api/v1/projects
-GET    /api/v1/projects/{id}
 POST   /api/v1/projects
-PUT    /api/v1/projects/{id}
 DELETE /api/v1/projects/{id}
 ```
 
 ### Technologies
 ```
 GET    /api/v1/technologies
-GET    /api/v1/technologies/{id}
 POST   /api/v1/technologies
-PUT    /api/v1/technologies/{id}
 DELETE /api/v1/technologies/{id}
 ```
 
